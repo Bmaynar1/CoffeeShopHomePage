@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Coffee.Master.cs" Inherits="CoffeeFinal.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Coffee</title>
+    <link href="Styles/Normalize.css" rel="stylesheet" />
+    <link href="Styles/Main.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <header>   
+        <a href="Home.aspx">
+            <div class="HeaderLogo">
+            <img id="headerIcon" src="../Imgs/Headercoffeeicon.png" />
+            </div>
+            <div class="HeaderText">
+            <h1>The Coffee Shop</h1>
+            <h2>Built For You</h2>
+            </div>
+        </a>
+    </header>
+
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

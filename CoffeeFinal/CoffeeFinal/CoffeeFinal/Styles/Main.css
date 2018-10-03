@@ -1,0 +1,158 @@
+﻿html {
+    width: 100%;
+    background-color: rgb(81, 84, 89);
+}
+
+body {
+    width: 90%;
+    background-color: rgb(251,250,212);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.12);
+}
+
+
+/*  /////////////////// Header \\\\\\\\\\\\\\\\\\\\\\*/
+header {
+    padding: 1.5em 0 2em 0;
+    border-bottom: solid .2em black;
+    background: linear-gradient(25deg, rgb(251,250,212), rgb(244, 242, 197));
+    width: 100%;
+}
+
+.HeaderLogo {
+    width: 30%;
+    height: 10vw;
+    width: 10vw;
+    float: left;
+}
+
+.HeaderText{
+    width:70%;
+    
+}
+
+header h1 {
+    font-size: 6vw;
+    padding-bottom: .1em;
+}
+
+header h2 {
+    width: 100%;
+    font-size: 3vw;
+    padding-bottom: .1em;
+    margin: 0;
+}
+
+#headerIcon {
+    width:100%;
+    height:100%;
+    padding-bottom: 1em;
+
+}
+
+a{
+    text-decoration:none;
+    color:black;
+}
+
+
+                                                       /* ////////////////////// Content controll \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+ContentPlaceHolder1{
+    width:100%;
+}
+
+.DlCenter{
+    margin-left: 25%;
+}
+
+#ddlList {
+    text-align: center;
+}
+
+.imgButton {
+    width: 100%;
+    height: 10vw;
+    width: 10vw;
+}
+
+#DataList1{
+    width:100%;
+    text-align:center;
+}
+
+#PoductTable{
+    text-align:center;
+}
+
+.repeaterTable {
+    border: none;
+}
+
+.hiddenCost{
+    visibility:hidden;
+}
+
+.hover:hover .hiddenCost {
+    visibility: visible;
+}
+
+
+/* ///////////////////////////////// Admin Page \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+.GridViewAdmin{
+    width:100%;
+}
+
+
+.GridViewEditRow input[type=text] {
+    width: 90%;
+}
+/* size textboxes */
+.GridViewEditRow select {
+    width: 90%;
+}
+/* size drop down lists */
+
+.AdminTable{
+    width: 100%;
+}
+
+.AdminTable input[type=text] {
+        width: 90%;
+    }
+/* size textboxes */
+.AdminTable select {
+        width: 90%;
+    }
+
+.lblError{
+    color:red;
+}
+
+/*/////////////////////// Health \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+.CoffeeImage {
+    width: 24vw;
+    height: 350px;
+    padding: 1em;
+    float: left;
+}
+
+.HealthImage{
+    width:15vw;
+    padding:1em;
+    float:left;
+    height: 350px;
+}
+
+.ProductD{
+    width:50%;
+    float: left;
+}
+
+.Productbody{
+    width: 100%;
+    height: 400px;
+}
